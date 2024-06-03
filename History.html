@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>办学历程</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/history.css">
+    <link rel="icon" href="./img/favicon.png" />
+    <style>
+        /* 添加时间轴样式 */
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            padding: 90px 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .timeline-item {
+            padding: 10px 20px;
+            position: relative;
+            background-color: inherit;
+            width: 405%;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        .timeline-content {
+            padding: 15px;
+            background-color: rgb(240, 202, 202);
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column; /* 将内容部分改为竖向排版 */
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .year {
+            font-size: 16px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            writing-mode: vertical-lr;
+            text-orientation: upright;
+        }
+
+        .description {
+            margin-left: 20px; /* 右侧文字描述的边距 */
+        }
+
+        /* 添加图片区域样式 */
+        .image-area {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 40px; /* 将图片区域下移一点 */
+        }
+
+        .image-area img {
+            max-width: 300px;
+            margin: 0 10px;
+            border-radius: 8px;
+        }
+
+        /* 调整 h2 标题样式 */
+        h2 {
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+
+        /* 调整 p 段落样式 */
+        p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <a href="./index.html"><img src="./img/logo-white.png" class="logo"></a>
+        <div frag="窗口11">
+            <ul class="pc_nav clearfix">
+                <li>
+                    <a href="./History.html"><span>办学历程</span></a>
+                </li>
+                <li>
+                    <a href="./Video.html"><span>校园影像</span></a>
+                </li>
+                <li>
+                    <a href=".image.html"><span>校园图片</span></a>
+                </li>
+
+                <li>
+                    <a href="https://gxufl.edu.cn/"><span>学校</span></a>
+                </li>
+                <li>
+                    <a href="./index.html"><span>主页</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+    <div class="history">
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    
+                    <div class="description">
+                        <h2>2004年</h2>
+                        <p>在这一年，学校正式成立，开启了教育之路。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                   
+                    <div class="description">
+                        <h2>2011年</h2>
+                        <p>在这一年，学校迎来了第一批毕业生。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    
+                    <div class="description">
+                        <h2>2013年</h2>
+                        <p>在这一年，学校扩建了校园，增加了新的教学楼。</p>
+                    </div>
+                </div>
+            </div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+            
+                    <div class="description">
+                        <h2>2016年</h2>
+                        <p>在这一年，学校实现了国际化教育的重要突破。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-area">
+            <img src="./Subpages/history/img/五合校区.png" alt="Image 1">
+            <img src="./Subpages/history/img/图书馆.jpg" alt="Image 2">
+            <img src="./images/03.png" alt="Image 3">
+            <img src="./images/04.png" alt="Image 3">
+        </div>
+    </div>
+
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="bottom">
+            <p>
+                <a href="#">关于我们</a>
+                <a href="#">帮助中心</a>
+                <a href="#">售后服务</a>
+                <a href="#">商务合作</a>
+                <a href="#">搜索推荐</a>
+                <a href="#">友情链接</a>
+            </p>
+        </div>
+    </div>
+</body>
+</html>
