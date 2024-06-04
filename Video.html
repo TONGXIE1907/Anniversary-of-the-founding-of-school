@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>校园影像</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/video.css">
+    <link rel="icon" href="./img/favicon.png" />
+</head>
+
+<body>
+    <div class="nav">
+        <a href="./index.html"><img src="./img/logo-white.png" class="logo"></a>
+        <div frag="窗口11">
+            <ul class="pc_nav clearfix">
+                <li>
+                    <a href="./History.html"><span>办学历程</span></a>
+                </li>
+                <li>
+                    <a href="./Video.html"><span>校园影像</span></a>
+                </li>
+                <li>
+                    <a href="./image.html"><span>校园图片</span></a>
+                </li>
+
+                <li>
+                    <a href="https://gxufl.edu.cn/"><span>学校</span></a>
+                </li>
+                <li>
+                    <a href="./index.html"><span>主页</span></a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="history">
+        <div class="heads">
+            <img width="1640px" src="./Subpages/image/imgs/imges/未标题-1.png" alt="">
+        </div>
+        <div class="ds">
+            <ul>
+                <li class="item " onclick="showContent('da1')" style="color: #03e2ff;">校园介绍</li>
+                <li class="item " onclick="showContent('da2')">校园新闻</li>
+                <li class="item " onclick="showContent('da3')">其他</li>
+            </ul>
+        </div>
+        <div class="da" id="da1">
+            <ul>
+                <li><video loop controls src="./vido/video/广西外国语学院宣传片.mp4"></video></li>
+                <li><video loop controls src="./vido/video/广西外国语学院十周年宣传片.mp4"></video></li>
+                <li><video loop controls src="./vido/video/2C5E52F1A2D0EACEF04BFEDD6DDF80B2.mp4"></video></li>
+            </ul>
+        </div>
+        <div class="da" id="da2"style="display: none;">
+            <ul>
+                <li><video loop controls src="./vido/01.mp4"></video></li>
+                <li><video loop controls src="./vido/11808F1D8E786A5B0E3CF1B880CC55ED.mp4"></video></li>
+            </ul>
+        </div>
+        <div class="da" id="da3" style="display: none;">
+            <ul>
+                <li><video loop controls src="./vido/video/98143FB303A2D0FFE8531D2B94FF786C.mp4"></video></li>
+                <li><video loop controls src="./vido/video/95A66DD101A2A18F35D633DCE3B4847E.mp4"></video></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 尾部 -->
+    <div class="footer">
+        <div class="bottom">
+            <p>
+                <a href="./team.html">关于我们</a>
+                <a href="./team.html">帮助中心</a>
+                <a href="./team.html">售后服务</a>
+                <a href="./team.html">商务合作</a>
+                <a href="./team.html">搜索推荐</a>
+                <a href="./team.html">友情链接</a>
+            </p>
+        </div>
+    </div>
+</body>
+<script language="javascript" src="./js/vido.js"></script>
+</html>
